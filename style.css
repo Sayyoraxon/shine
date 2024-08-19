@@ -113,7 +113,7 @@ main>div>div>div:first-child>p:first-child{
     color: #f8ad79;
 }
 
-main>div>div>div:first-child>p:first>span {
+span.honey {
     font-family: 'Milk and Honey', sans-serif;
 }
 
