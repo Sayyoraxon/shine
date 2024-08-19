@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milk+and+Honey&display=swap');
+
+
+@font-face {
+    font-family: 'Milk and Honey';
+    src: url('./fonts/Milk\ And\ Honey.otf') format('woff2'),
+         url('./fonts/Milk\ And\ Honey.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header>div:first-child {
+    width: 1440px;
+    height: 30px;
+    background-color:#F8AD79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div:first-child p {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.2px;
+    text-align: center;
+}
+
+.logoDiv {
+    width: 1440px;
+    height: 80px;
+    background-color: #fff;
+    padding-left: 138px;
+    padding-top: 24px;
+}
+
+.logoDiv img {
+    width: 113px;
+}
+
+header>div:last-child {
+    width: 1440px;
+    height: 32px;
+    background-color: #ffe1cc;
+}
+
+
+header>div:last-child>div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 919px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header>div:last-child>div>div {
+    display: flex;
+}
+
+header>div:last-child>div>div img {
+   margin-right: 8px; 
+}
+
+header>div:last-child>div>div p {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.2px;
+    text-align: center;
+}
+
+main>div {
+    width: 1440px;
+    height: 628px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#2D1A0F, #422410 64%);
+}
+
+main>div>img {
+    width: 603px;
+    height: 455px;
+    object-fit: cover;
+}
+
+main>div>div {
+    display: flex;
+    flex-direction: column;
+    width: 673px;
+    height: 411px;
+}
+
+main>div>div>div:first-child>p:first-child{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 620px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 49px;
+    color: #f8ad79;
+}
+
+main>div>div>div:first-child>p:first>span {
+    font-family: 'Milk and Honey', sans-serif;
+}
+
+.text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.text>span {
+    font-weight: 700;
+}
+
+span.orange{
+    color: #F8AD79;
+}
+
+main button {
+    margin-top: 15px;
+    margin-bottom: 31px;
+    width: 220px;
+    height: 64px;
+    border-radius: 14px;
+    background-color: #F8AD79;
+    border: none;
+    color: #462b13;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+main>div>div>div:last-child {
+    margin-top: auto;
+}
